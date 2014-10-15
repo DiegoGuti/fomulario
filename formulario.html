@@ -41,9 +41,10 @@
     <div class="twelve columns" >
       <form id="custom" action="" method="POST" >
       
-      	<input id="website" name="website" type="text" value="" ><!-- Leave for security protection, read docs for details. Delete this comment before to publish. -->
+        <input id="website" name="website" type="text" value="" ><!-- Leave for security protection, read docs for details. Delete this comment before to publish. -->
+        
         <fieldset title="Step 1">
-          <legend>Información Basica / Basic Information</legend>
+          <legend>Informacion General / General Info</legend>
           <div class="five columns alpha">
             <label>Nombre / Names<a href="#" class="tooltip_1" title="Your tooltip">Info</a></label>
             <input type="text"  name="name" />
@@ -65,8 +66,8 @@
           </div>
         </fieldset><!-- End Step one -->
         
-                <fieldset title="Step 2" >
-          <legend>Informacion Personal / Personal Information </legend>
+        <fieldset title="Step 2" >
+           <legend>Informacion Personal / Personal Information </legend>
           <label>Direccion / Address <a href="#" class="tooltip_1" title="Stree addres">Info</a></label>
           <input type="text" name="address" class="long"/>
           <div class="five columns alpha">
@@ -334,9 +335,9 @@
           <br class="clear">
         </fieldset><!-- End Step two -->
         
-        
         <fieldset title="Step 3">
-          <div class="five columns omega" >
+          <legend>Informacion Ministerial / Ministerial Info</legend>
+<div class="five columns omega" >
             <label> Asiste a la iglesia / Attend church <a href="#" class="tooltip_1" title="Your tooltip">Info</a></label>
            <select required>
             <option> Si / Yes </option>
@@ -360,8 +361,7 @@
             <label>Lider / Leader<a href="#" class="tooltip_1" title="Your tooltip">Info</a></label>
            <select required>
            </select>
-          </div>
-        </fieldset><!-- End Step three -->
+          </div>        </fieldset><!-- End Step three -->
         
         <input type="submit" class="finish" value="Finish!" />
       </form>
